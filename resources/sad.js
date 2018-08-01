@@ -26,7 +26,6 @@
             ];
 
             var nodes = {};
-
             // Compute the distinct nodes from the links.
             links.forEach(function(link) {
                 link.source = nodes[link.source] || (nodes[link.source] = { name: link.source });
