@@ -1,0 +1,36 @@
+.diagram-container {
+    padding: 10px;
+    border: 1px solid #666;
+    margin: 0px;
+}
+
+.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+#licensing {
+    fill: green;
+}
+
+.link.licensing {
+    stroke: green;
+}
+
+.link.resolved {
+    stroke-dasharray: 0, 2 1;
+}
+
+rect {
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 1.5px;
+    opacity: 0.5;
+}
+
+text {
+    font: 10px sans-serif;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}

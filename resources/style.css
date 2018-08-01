@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.diagram-container {
+    width: 99%;
+}
